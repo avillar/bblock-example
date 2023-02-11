@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": "address.context.jsonld",
+  "title": "Address",
+  "type": "object",
+  "properties": {
+    "street": {
+      "type": "string"
+    },
+    "postCode": {
+      "type": "string",
+      "pattern": "\\d{5}"
+    },
+    "label": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    }
+  }
+}

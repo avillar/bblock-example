@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "dbpedia": "https://dbpedia.org/ontology/",
+    "name": "rdfs:label",
+    "address": "vcard:hasAddress",
+    "owner": "dbpedia:owner",
+    "@propagate": "false"
+  }
+}

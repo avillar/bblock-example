@@ -1,0 +1,12 @@
+{
+  "name": "my thing",
+  "address": {
+    "street": "My Street",
+    "postCode": "39004",
+    "label": "Home"
+  },
+  "owner": {
+    "label": "John Doe",
+    "birthDate": "1985-06-15"
+  }
+}

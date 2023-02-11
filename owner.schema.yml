@@ -1,0 +1,14 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+"@context": owner.context.jsonld
+title: Owner
+type: object
+properties:
+  label:
+    oneOf:
+    - type: string
+    - type: array
+      items:
+        type: string
+  birthDate:
+    type: string
+    format: date
